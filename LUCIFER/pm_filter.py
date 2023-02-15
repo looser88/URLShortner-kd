@@ -1357,11 +1357,11 @@ async def advantage_spell_chok(msg):
         reply_markup=InlineKeyboardMarkup(btn)
     )
     await asyncio.sleep(8)
-    await spl1.edit("<b> 𝟷) O.T.T Oʀ DVD Nᴏᴛ Rᴇʟᴇᴀsᴇᴅ\n\n𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ\n\n𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ\nRᴇᴘᴏʀᴛ ʙᴇʟᴏᴡ👇 ?</b>",
+    await spl1.edit("<b>ɪғ Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏᴛʜɪɴɢ Rᴇʟᴀᴛᴇᴅ ᴛᴏ Tʜᴀᴛ\n\n𝟷) O.T.T Oʀ DVD Nᴏᴛ Rᴇʟᴇᴀsᴇᴅ\n\n𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ\n\n𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ\nRᴇᴘᴏʀᴛ ʙᴇʟᴏᴡ👇 ?</b>",
         reply_markup=InlineKeyboardMarkup(btn2)
     )
     await asyncio.sleep(8)
-    await spl1.delete()
+    await spl1.delete(8)
     await msg.delete()
     return
 
