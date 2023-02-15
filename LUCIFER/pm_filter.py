@@ -1348,7 +1348,7 @@ async def advantage_spell_chok(msg):
     ]]
     btn2 = [[
         InlineKeyboardButton(
-            text="𝚁𝚎𝚙𝚘𝚛𝚝 𝙷𝚎𝚛𝚎", url='https://t.me/AlexaMoviesupportbot}')
+            text="𝚁𝚎𝚙𝚘𝚛𝚝 𝙷𝚎𝚛𝚎", url='https://t.me/AlexaMoviesupportbot')
     ]]
     
     spl1 = await msg.reply_photo(
