@@ -448,7 +448,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                         [
-                         InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url=CHNL_LNK)
+                         [
+                         
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                        ]
                         ]
                     )
@@ -491,12 +493,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             protect_content=True if ident == 'checksubp' else False,
             reply_markup=InlineKeyboardMarkup(
                 [
-                 [
-                  InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url=CHNL_LNK)
-               ]
-                ]
-            )
-        )
+                         [
+                         
+                          InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                       ]
+                        ]
+                    )
+                )
             
     elif query.data == "pages":
         await query.answer(text=script.PAGEINFO, show_alert=True)
