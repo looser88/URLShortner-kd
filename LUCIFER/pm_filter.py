@@ -1362,7 +1362,7 @@ async def advantage_spell_chok(msg):
     await spl1.edit("<b>I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏᴛʜɪɴɢ Rᴇʟᴀᴛᴇᴅ ᴛᴏ Tʜᴀᴛ\nDɪᴅ Yᴏᴜ Mᴇᴀɴ Aɴʏ Oɴᴇ ᴏғ Tʜᴇsᴇ ?</b>",
         reply_markup=InlineKeyboardMarkup(btn2)
     )
-    await asyncio.sleep(SPL_DELETE_TIME)
+    await asyncio.sleep(1)
     await spl1.delete()
     await msg.delete()
     return
