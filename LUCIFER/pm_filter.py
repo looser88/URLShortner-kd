@@ -448,7 +448,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     protect_content=True if ident == "filep" else False,
                     reply_markup=InlineKeyboardMarkup(
                         [
-               InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url=CHNL_LNK)
+                         InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url=CHNL_LNK)
                        ]
                         ]
                     )
