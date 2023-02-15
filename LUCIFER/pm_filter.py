@@ -1348,21 +1348,19 @@ async def advantage_spell_chok(msg):
     ]]
     btn2 = [[
         InlineKeyboardButton(
-            text=movie.strip(),
-            callback_data=f"spolling#{user}#{k}",
-        )
-    ] for k, movie in enumerate(movielist)]
+            text="𝚁𝚎𝚙𝚘𝚛𝚝 𝙷𝚎𝚛𝚎", url='https://t.me/AlexaMoviesupportbot}')
+    ]]
     
     spl1 = await msg.reply_photo(
         photo=(SPELL_IMG),
         caption=(script.CUDNT_FND),
         reply_markup=InlineKeyboardMarkup(btn)
     )
-    await asyncio.sleep(12)
-    await spl1.edit("<b>I Cᴏᴜʟᴅɴ'ᴛ Fɪɴᴅ Aɴʏᴛʜɪɴɢ Rᴇʟᴀᴛᴇᴅ ᴛᴏ Tʜᴀᴛ\nDɪᴅ Yᴏᴜ Mᴇᴀɴ Aɴʏ Oɴᴇ ᴏғ Tʜᴇsᴇ ?</b>",
+    await asyncio.sleep(8)
+    await spl1.edit("<b> 𝟷) O.T.T Oʀ DVD Nᴏᴛ Rᴇʟᴇᴀsᴇᴅ\n\n𝟸) Tʏᴘᴇ Nᴀᴍᴇ Wɪᴛʜ Yᴇᴀʀ\n\n𝟹) Mᴏᴠɪᴇ Is Nᴏᴛ Aᴠᴀɪʟᴀʙʟᴇ ɪɴ ᴛʜᴇ Dᴀᴛᴀʙᴀsᴇ\nRᴇᴘᴏʀᴛ ʙᴇʟᴏᴡ👇 ?</b>",
         reply_markup=InlineKeyboardMarkup(btn2)
     )
-    await asyncio.sleep(1)
+    await asyncio.sleep(5)
     await spl1.delete()
     await msg.delete()
     return
