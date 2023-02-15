@@ -125,8 +125,6 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ★ 𝙰𝙲𝙲𝚄𝙿𝙰𝙸𝙳 𝚂𝙿𝙰𝙲𝙴: <code>{}</code>
 ★ 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>{}</code>"""
 
-<b>
-
     LOG_TEXT_G = """<b>#NewGroup
     
 Gʀᴏᴜᴘ = {} (<code>{}</code>)
