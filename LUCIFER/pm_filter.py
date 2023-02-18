@@ -84,7 +84,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", 
+                    text=f"📥{get_size(file.file_size)}📥 {file.file_name}", 
                     url=await get_shortlink(f"https://telegram.dog/{temp.U_NAME}?start=files_{file.file_id}")
                 ),
             ]
@@ -742,7 +742,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "kd_cnl":
             cnlbtn = [[
-                      InlineKeyboardButton('Lᴜᴄɪғᴇʀ Bᴏᴛ Lᴏɢs', url="https://t.me/alexa_movies")
+                      InlineKeyboardButton('Bᴏᴛ Lᴏɢs', url="https://t.me/alexa_movies")
                      ], [
                       InlineKeyboardButton('Gʀᴏᴜᴘ', url='https://t.me/Click_hereto_join'),
                       InlineKeyboardButton('Cʜᴀɴɴᴇʟ', url='https://t.me/alexa_movies')
